@@ -28,6 +28,7 @@ public class BuilderDesign {
         Pedido pedido = new Pedido(objcliente, productos, new Date(), 1569754314);
         // El cliente solicita el precio y digita el numero de la tarjeta
         // para realizar el pago
+        // Comentario 1
         objcliente.imprimirInfoCliente();
         System.out.println("");
         
